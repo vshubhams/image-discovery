@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 40px;
+    border: solid 1px #ccc;
+}
+.left{
+    flex: .5;
+}
+.right{
+    flex: .5;
+}
